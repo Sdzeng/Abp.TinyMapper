@@ -1,0 +1,25 @@
+﻿################################################################################
+# 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
+################################################################################
+.vs
+obj
+bin
+*.cache
+
+/WinMS.Web/App_Data/Logs
+/WinMS.Web/grunt/node_modules
+/WinMS.Web/build
+!/WinMS.Web/build/images
+
+
+/WinMS.Web/WinMS.Web.csproj
+/WinMS.Web/WinMS.Web.csproj.user
+/WinMS.Web/WinMS.Web.csproj
+/WinMS.Web/WinMS.Web.csproj
+
+/packages
+/WinMS.Application/WinMS.Application.csproj.user
+/WinMS.Core/WinMS.Core.csproj.user
+/WinMS.Web/Trans/Send/Bak
+/WinMS.Web/Uploads
+/WinMS.Web/GetTicketBarcode/Bak
