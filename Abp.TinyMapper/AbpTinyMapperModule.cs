@@ -27,7 +27,7 @@ namespace Abp.TinyMapper
         public AbpTinyMapperModule(ITypeFinder typeFinder)
         {
             //#if !NET46
-            //            throw new Exception("Abp.TinyMapper暂时不支持.net standard");
+            //            throw new Exception("Abp.TinyMapper not support .net standard");
             //#endif
             _typeFinder = typeFinder;
         }
