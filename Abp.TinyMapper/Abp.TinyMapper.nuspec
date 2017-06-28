@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Abp.TinyMapper</id>
+    <version>2.0.2</version>
+    <authors>Sdzeng</authors>
+    <owners>Bit</owners>
+    <licenseUrl>https://github.com/Sdzeng/Abp.TinyMapper/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/Sdzeng/Abp.TinyMapper</projectUrl>
+    <iconUrl>http://www.aspnetboilerplate.com/images/abp_nupkg.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>abp tinymapper</description>
+   
+    <copyright>Copyright 2017</copyright>
+    <tags>Abp TinyMapper</tags>
+  </metadata>
+</package>
