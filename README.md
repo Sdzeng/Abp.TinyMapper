@@ -19,7 +19,9 @@ public override void PreInitialize()
 # 2.Attribute
 
 TinyMapAttribute
+
 TinyMapFromAttribute
+
 TinyMapToAttribute
 
 demo
