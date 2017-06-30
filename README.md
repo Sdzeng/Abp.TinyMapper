@@ -27,11 +27,11 @@ public override void PreInitialize()
 }
 ```
 ### Attribute 
-TinyMapAttribute 
-TinyMapFromAttribute 
-TinyMapToAttribute 
+#### TinyMapAttribute 
+#### TinyMapFromAttribute 
+#### TinyMapToAttribute 
 
-Demo
+### Map 
 ```csharp
 [TinyMap(typeof(Info))]
 public class Dto{
