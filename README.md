@@ -24,7 +24,7 @@ TinyMapFromAttribute
 
 TinyMapToAttribute
 
-demo
+Demo
 [TinyMap(typeof(Info))]
 public class Dto{
   public int Id{get;set;}
@@ -37,5 +37,7 @@ public class Info{
 }
 
 var dto=new Dto{id=1,Name="Sdzeng"};
+
 var info=dto.MapTo<Info>();
+
 dto=info.MapTo<Dto>();
