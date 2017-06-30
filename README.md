@@ -15,7 +15,7 @@ Available on [nuget](https://www.nuget.org/packages/TinyMapper/)
 
 ## Getting Started
 
-# 1.In module file
+### In module file
 ```csharp
 public override void PreInitialize()
 {
@@ -27,13 +27,10 @@ public override void PreInitialize()
     });
 }
 ```
-# 2.Attribute
-
-TinyMapAttribute
-
-TinyMapFromAttribute
-
-TinyMapToAttribute
+### Attribute 
+TinyMapAttribute 
+TinyMapFromAttribute 
+TinyMapToAttribute 
 
 Demo
 ```csharp
