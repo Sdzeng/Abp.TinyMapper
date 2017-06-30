@@ -1,9 +1,20 @@
 # Abp.TinyMapper
-Abp.TinyMapper with Abp https://github.com/aspnetboilerplate/aspnetboilerplate. 
+Abp.TinyMapper with Abp https://github.com/aspnetboilerplate/aspnetboilerplate. (Not support .net core.)
 
-Not support .net core.
+======================================================  
+[![Nuget downloads](https://img.shields.io/nuget/v/tinymapper.svg)](https://www.nuget.org/packages/Abp.TinyMapper/)
+[![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/Sdzeng/Abp.TinyMapper/blob/master/LICENSE)
 
-# Usage
+
+
+## Installation
+
+Available on [nuget](https://www.nuget.org/packages/TinyMapper/)
+
+	PM> Install-Package Abp.TinyMapper
+
+## Getting Started
+
 # 1.In module file
 
 public override void PreInitialize()
