@@ -4,7 +4,8 @@ Abp.TinyMapper with Abp https://github.com/aspnetboilerplate/aspnetboilerplate.
 Not support .net core.
 
 # Usage
-1.In module file
+# 1.In module file
+
 public override void PreInitialize()
 {
     Configuration.Modules.AbpTinyMapper().EnableAutoBinding = true;
@@ -15,10 +16,12 @@ public override void PreInitialize()
     });
 }
 
-2.Attribute
+# 2.Attribute
+
 TinyMapAttribute
 TinyMapFromAttribute
 TinyMapToAttribute
+
 demo
 [TinyMap(typeof(Info))]
 public class Dto{
