@@ -16,7 +16,7 @@ Available on [nuget](https://www.nuget.org/packages/TinyMapper/)
 ## Getting Started
 
 # 1.In module file
-
+```csharp
 public override void PreInitialize()
 {
     Configuration.Modules.AbpTinyMapper().EnableAutoBinding = true;
@@ -26,7 +26,7 @@ public override void PreInitialize()
     //custom your tiny bind
     });
 }
-
+```
 # 2.Attribute
 
 TinyMapAttribute
@@ -36,6 +36,7 @@ TinyMapFromAttribute
 TinyMapToAttribute
 
 Demo
+```csharp
 [TinyMap(typeof(Info))]
 public class Dto{
   public int Id{get;set;}
@@ -48,7 +49,6 @@ public class Info{
 }
 
 var dto=new Dto{id=1,Name="Sdzeng"};
-
 var info=dto.MapTo<Info>();
-
 dto=info.MapTo<Dto>();
+```
